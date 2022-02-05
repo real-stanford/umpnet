@@ -31,15 +31,15 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
-Download object URDF and pretrained model.
+Prepare object URDF and pretrained model.
 - [mobility_dataset](https://ump-net.cs.columbia.edu/download/mobility_dataset.zip): URDF of 12 training and 10 testing object categories.
 - [pretrained](https://ump-net.cs.columbia.edu/download/pretrained.zip): pretrained model.
 
 Download, unzip, and organize as follows:
 ```
-\UMPNet
-    \mobility_dataset
-    \pretrained
+/umpnet
+    /mobility_dataset
+    /pretrained
     ...
 ```
 
