@@ -1,8 +1,0 @@
-torch==1.8.1+cu111
-pybullet==3.1.2
-tensorboard>=2.4.1
-dominate>=2.6.0
-opencv-python>=4.5.1.48
-open3d>=0.12.0
-imageio>=2.9.0
-h5py>=3.1.0

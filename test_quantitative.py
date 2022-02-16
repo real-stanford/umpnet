@@ -180,7 +180,7 @@ def run_test(args, model, category_type, category_name, instance_type):
                     vec += noise_candidates[noise_id[dir_id]] / np.sqrt(args.num_direction) * 2
                     vec /= np.sqrt(np.sum(vec ** 2))
                     new_directions[dir_id] = vec
-                new_direction_affordance, _ = model.get_direction_affordance([observation], model_type=args.model_type)
+                new_direction_affordance, _ = model.get_direction_affordance([observation], model_type=args.model_type, directions=new_directions[np.newaxis])
                 new_direction_affordance = new_direction_affordance[0]
                 directions = new_directions
                 direction_affordance = new_direction_affordance

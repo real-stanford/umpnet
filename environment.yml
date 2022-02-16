@@ -1,0 +1,23 @@
+name: umpnet
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - tqdm
+  - pytorch
+  - torchvision
+  - scipy
+  - cudatoolkit=11.1
+  - imageio
+  - matplotlib
+  - numpy
+  - pip
+  - python=3.6
+  - scikit-image
+  - tensorboard
+  - pip:
+    - h5py
+    - opencv-python
+    - dominate
+    - pybullet
+    - open3d

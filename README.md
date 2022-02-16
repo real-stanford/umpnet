@@ -24,9 +24,9 @@ This repo contains the PyTorch implementation for paper "UMPNet: Universal Manip
 
 ## Prerequisites
 
-The code is built with Python 3.6. Libraries are listed in [requirements.txt](requirements.txt) and can be installed with pip by:
+We have prepared a conda YAML file which contains all the python dependencies.
 ```sh
-pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 
 ## Data Preparation
